@@ -3,33 +3,59 @@
     <head>
         <title>Normal Website :)</title>
         <style>
-             body{
+            .block{
+                background-color: white;
+                width: 1903px;
+                height: 1120px;
+                top: 0px;
+                left: 0px;
+                mask-image: none;
+                position: absolute;
+            }
+            button{
+                position: relative; top: 1500px
+            }
+            .hehe{
+                background-color: transparent;
+                color: transparent;
+                border-color: transparent;
+            }
+            img{
+                margin: 10px
+            }
+            body{
                 background: linear-gradient(to left, blue, red); background-size: cover;
             }
             p{
-                font-size:70px; font-weight: bold; color:white}
+                font-size: 70px; font-weight: bold; color:white; box-shadow: black; text-align: center; position:relative; top: 1100px}
             .cart{
-                background-color:rgb(255, 217, 0) ; border: none; border-radius: 5px; padding: 50px; color: white; cursor: pointer; transition: opacity 0.25s, color 0.25s, padding 0.25s; font-size: 50px; margin-right: 10px; font_weight: bold;
+                background-color:rgb(255, 217, 0) ; border: none; border-radius: 5px; padding: 50px; color: white; cursor: pointer; transition: opacity 0.25s, color 0.25s, padding 0.25s; font-size: 50px; margin-right: 10px; margin-left: 600px; margin-bottom: 100px; position: relative; top: 1100px
              }
-             .cart:hover{
+            .cart:hover{
                 opacity: 0.6; color:gray;
              }
+            .buy{
+                background-color:rgb(255, 217, 0) ; border: none; border-radius: 5px; padding: 50px; color: white; cursor: pointer; transition: opacity 0.25s, color 0.25s, padding 0.25s; font-size: 50px; margin-right: 10px; position: relative; top: 1100px
+            }
+            .buy:hover{
+                opacity: 0.6; color:gray;
+            }
         </style>
         <script>
-            function changesmth() {
-                document.getElementById('ccc').innerHTML = 'Added to Cart.';
-                
+            function De() {
+                document.getElementById('cc').innerHTML = 'Added to Cart.';
             }
         </script>
-       
 
     </head>
     <body>
+        <div class="block"><img src=https://www.bonjourlife.com/wp-content/uploads/2014/11/Saleem-Khyzyl-Uses-Only-Photoshop-to-Design-These-Futuristic-Cars-1.jpg; height="1100px"; width="1883px"></div>
         <p>New Tesla Model 4Y Pro</p>
         <p class="title">Order now For 1$</p>
-        <button onclick="changesmth()"; class="cart"; id="ccc">Add to Cart</button>
+        <button onclick="De()"; class="cart"; id="cc">Add to Cart</button>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=43"; >
-            <button class="cart">Buy Now</button>
+            <button class="buy">Buy Now</button>
         </a>
+        <button class="hehe">heheha</button>
     </body>
 </html>
